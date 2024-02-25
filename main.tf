@@ -20,12 +20,12 @@ provider "github" {
   token = "${var.GITHUB_TOKEN}"
 }
 
-resource "github_repository" "coffee-with-devops" {
-  name = "coffee-with-devops"
+resource "github_repository" "coffee-com-devops" {
+  name = "coffee-com-devops"
 }
 
-resource "github_branch_protection_v3" "coffee-with-devops" {
-  repository     = github_repository.coffee-with-devops.name
+resource "github_branch_protection_v3" "coffee-com-devops" {
+  repository     = github_repository.coffee-com-devops.name
   branch         = "main"
   enforce_admins = true
 }
