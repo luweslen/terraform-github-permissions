@@ -3,7 +3,7 @@ terraform {
     organization = "example-org-f6c6aa"
 
     workspaces {
-      name = "coffe-with-devops"
+      name = "coffee-com-devops"
     }
   }
 
